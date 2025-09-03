@@ -1,0 +1,31 @@
+{
+  "name": "cdn example",
+  "version": "1.0.0",
+  "description": "Telegram CDN API for uploading files and serving custom URLs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "mongoose": "^8.3.4",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "telegram",
+    "cdn",
+    "api",
+    "express",
+    "mongodb",
+    "file-upload"
+  ],
+  "author": "King David",
+  "license": "MIT"
+}
